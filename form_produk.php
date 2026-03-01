@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Form Produk</title>
+<title>
+    Belajar OOP - Form Produk
+</title>
 </head>
 <body>
 <h2>Input Data Produk</h2>
-<form action="proses_produk.php" method="POST">
+<form method="POST" action="proses_produk.php">
 Nama Produk :
 <input type="text" name="nama"><br><br>
 Harga :
 <input type="number" name="harga"><br><br>
-<input type="submit" value="Simpan">
+Jumlah:
+<input type="number" name="jumlah"><br><br>
+Diskon (%):
+<input type="number" name="diskon"><br><br>
+<input type="submit">Proses</button>
 </form>
 </body>
 </html>
